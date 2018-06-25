@@ -22,7 +22,7 @@ print(tday.weekday())#extracing the weekday
 import math
 x=int(input('enter a number'))
 print(math.factorial(x))
-#Q8Find the factorial of a number input by user using math package functions
+#Q8Find the gcd of a number input by user using math package functions
 y=int(input('enter a number'))
 z=int(input('enter a number'))
 print(math.gcd(y,z))
