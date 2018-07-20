@@ -2,7 +2,7 @@ import sqlite3
 connection=sqlite3.connect('data.db')
 cursor=connection.cursor()
 #Q1CREATING A TABLE
-cursor.execute('CREATE TABLE IF NOT EXISTS  Books("Books Id" integer,"Title Id" integer,"Location text,Genre text)')
+cursor.execute('CREATE TABLE IF NOT EXISTS  Books("Books Id" integer,"Title Id" integer,"Location text",Genre text)')
 cursor.execute('CREATE TABLE IF NOT EXISTS   Titles(Title_Id integer,Title text,ISBN integer,Publisher_Id text,Publication Year integer)')
 cursor.execute('CREATE TABLE IF NOT EXISTS   Publishers(Publisher Id integer,Zip Code Id integer,Suite Number integer,Name text,STREET Address text)')
 cursor.execute('CREATE TABLE IF NOT EXISTS   ZipCodes(Zip_Code Id integer,ZipCode integer,State text,City text)')
